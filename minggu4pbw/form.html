@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form HTML 5</title>
+	</head>
+	
+	<body>
+		<h2> Element Form HTML 5 </h2>
+		<form name="fmhs" action="proses.php" method="post">
+			<table>
+				<tr>
+					<td>NIM</td>
+					<td><input type="number" name="fnim" required></td>
+				</tr>
+				<tr>
+					<td>NAMA</td>
+					<td><input type="text" name="fnama" required></td>
+				</tr>
+				<tr>
+					<td>TANGGAL LAHIR</td>
+					<td><input type="date" name="ftgllhr" required></td>
+				</tr>
+				<tr>
+					<td>PROGRAM STUDI</td>
+					<td>
+						<select name="fprodi" required>
+							<option value="">:: Pilih Prodi</option>
+							<option value="A11">S1 - TEKNIK INFORMATIKA</option>
+							<option value="A12">S1 - SISTEM INFORMASI</option>
+							<option value="A13">S1 - ILMU KOMUNIKASI</option>
+							<option value="A22">Vokasi - TEKNIK INFORMATIKA</option>
+							<option value="A23">D3 - ANIMASI</option>
+						</select>
+					</td>
+				<tr>
+					<td>HOBBY</td>
+					<td>
+						<input type="checkbox" name="fhobby" value="11">
+						<label for="fhobby1">WEB PROGRAMING<br>
+						<input type="checkbox" name="fhobby2" value="12">
+						<label for="fhobby2">MOBILE PROGRAMING<br>
+						<input type="checkbox" name="fhobby3" value="13">
+						<label for="fhobby3">DATA SCIENCE<br>
+					</td>
+				</tr>
+				<tr>
+					<td>FILE KTP</td>
+					<td><input type="file" name="fktp" required ></td>
+				</tr>
+				<tr>
+					<td><input type="submit" name="fsubmit"></td>
+					<td><input type="hidden" name="fhide" value="r4h4si4></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
