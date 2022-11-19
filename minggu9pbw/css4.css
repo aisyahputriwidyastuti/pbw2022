@@ -29,7 +29,7 @@ h1,h2{
  margin: 20px; 
  width: 150px; 
  height: 150px; 
- -ms-transform: translate(50px,100px); /* Support IE 9 */ 
-    -webkit-transform: translate(50px,100px); /* support Safari */
-	transform: translate(50px,100px); /* Standard syntax */ 
+ -ms-transform: translate(50px,100px); 
+    -webkit-transform: translate(50px,100px); 
+	transform: translate(50px,100px); 
 }
