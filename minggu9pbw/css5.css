@@ -29,7 +29,7 @@ h1,h2 {
  margin: 50px; 
  width: 150px; 
  height: 150px; 
- -ms-transform: scale(2,3); /* Support IE 9 */ 
-    -webkit-transform: scale(2,3); /* support Safari */ 
-    transform: scale(2,2); /* Standard syntax */  
+ -ms-transform: scale(2,3); 
+    -webkit-transform: scale(2,3);  
+    transform: scale(2,2);   
 }  
