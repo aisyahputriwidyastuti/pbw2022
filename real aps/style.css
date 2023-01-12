@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Bree Serif', serif;
+}
+nav{
+    display: flex;
+    background-color:mediumpurple;
+    justify-content: space-around;
+    padding: 20px 0;
+    color:aliceblue;
+}
+nav. logo{
+    font-family: 'Fredoka One', cursive;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+    width: 40%;
+    justify-content:space-evenly;
+}
+nav ul li a {
+    display: flexbox;
+    color :rgb(242, 240, 244);
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    background-color:rgb(41, 3, 78); 
+}
+section{
+    position:sticky;
+    padding : 50.px;
+    justify-content: center;
+    display: flex;
+    color:mediumpurple;
+    z-index: 1;
+    align-items: center;
+    height: 60px;
+    border: 1px solid;
+    background-color: aliceblue;
+    background-image: url("..img/logo.jpeg");
+}
+
+    
+
+
